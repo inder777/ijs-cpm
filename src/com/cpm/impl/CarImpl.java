@@ -41,6 +41,11 @@ public class CarImpl implements Vehicle {
 
 	@Override
 	public HashMap<Integer, String> compact(HashMap<Integer, String> result) {
+		if(result.size()==0)
+		{
+			System.out.println("No Cars Parked.....All Slots are Empty");
+			System.exit(0);
+		}
 		int j = 5000;
 		String licenseTmp = "";
 		int assignTicketLimit = car.getassignTicket();
