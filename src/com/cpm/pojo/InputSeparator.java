@@ -31,11 +31,14 @@ public class InputSeparator {
 				result = carImpl.compact(result);
 			}
 		}
-
-		for (Integer s : result.keySet()) {
-			parkingDetails += result.get(s);
+		//return the final car parking status
+		int val;
+		for (val=5000;val<car.getassignTicket();val++)
+		{
+			parkingDetails += result.get(val);
 			parkingDetails += ',';
 		}
+		parkingDetails += result.get(val);
 		return parkingDetails;
 	}
 
