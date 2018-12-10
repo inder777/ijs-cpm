@@ -22,6 +22,15 @@ validates if hashmap is empty, then nothing to compact. Else, compact the null v
 i/p and o/p scenarios:
 
 i/p:
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11
+o/p: Sorry!!! All Slots are full!!!
+
+i.p:
+c
+o/p:
+No Cars Parked...All Slots are Empty
+
+i/p:
 pABC,pFGH,pGHI
 o/p:
 ABC,FGH,GHI
