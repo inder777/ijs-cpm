@@ -19,6 +19,11 @@ public class Car {
 
 	public void assignNewTicket() {
 		assignTicket += 1;
+		if(assignTicket == 5010)
+		{
+			System.out.println("Sorry!!!! All slots are full!!!!");
+			System.exit(0);
+		}
 	}
 
 }
